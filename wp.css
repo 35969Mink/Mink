@@ -1,0 +1,13 @@
+input::-webkit-input-placeholder{font-family:"Material Icons Outlined"}
+body {background-color: cream;text-align:left;}
+h1 {color:salmon;font-size: 15px; margin-left:30px;}
+p {color:darkcyan;font-size:15px; margin-left:40px}
+a {color:green;}
+ol, ul {color: darksalmon;margin-left:50px;}
+form, label, input {color:palevioletred;}
+label, input {margin-left: 30px;}
+button {background-color: plum; color:rosybrown; margin-left:30px;}
+::placeholder {text-align: center;}
+#tdrk, #akai, #levi, #killua {margin-left: 0px;}
+#arrow-up {margin-left: 900px;}
+#homeicon {margin-left: 30px;}
