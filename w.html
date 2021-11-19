@@ -6,9 +6,14 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="keywords" content="anime">
         <meta name="author" content="Mink">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+      rel="stylesheet">
+      <link rel="stylesheet" href="wp.css">
     </head>
     <body>  
         <h1>Anime</h1>
+        <span class="material-icons-outlined">boy</span>
+          <span class="material-icons-outlined">girl</span>
         <main>
             <p>Click here to view more anime list <a href="https://myanimelist.net/">anime list</a></p>
             <a href="#"></a><img src="aot.jpg" alt="aot" width="200" height="300">
@@ -75,12 +80,16 @@
            
             <form action="p.html">
                <label for="favanime">What is your favorite anime?</label><br>
-                 <input type="text" placeholder="Enter your fav Anime" id="favanime" name="urfavanime"><br><br>
+               <span class="material-icons-outlined">favorite</span>
+                 <input type="text" placeholder="favorite_border" id="favanime" name="urfavanime"><br><br>
                <label for="favcharacters">Who is your favorite character?</label><br>
+               <span class="material-icons-outlined">favorite_border</span>
                  <input type="text" placeholder="Enter your fav character" id="favcha" name="urfavcha"><br><br>
                <label for="ever">Have you watched anime before?<br>
+                <span class="material-icons-outlined">search</span>
                  <input type="radio" id="ever" name="have">I have watched before</label><br>
                <label for="ever">
+                <span class="material-icons-outlined">search_off</span>
                  <input type="radio" id="ever" name="have">I haven't watch before</label><br><br>
                <label for="love">If you have,Which anime you want to rewatched?<br>
                <label for="CONAN">
@@ -99,8 +108,14 @@
                  <input id="HXH" type="checkbox" name="anime">Hunter x Hunter
                </label><br><br>
                <button type="submit">submit</button>
-            </form>
-
+            <h3>My lovely anime characters</h3>
+            <video src="pheobe.mp4" width='240' height='140' autoplay>
+              Your browser does not support the video tag.
+            </video>
+            <h3>Song audio</h3>
+            <audio src="efefe.mp3" controls>
+              Your browser does not support the audio tag.
+            </audio>
         </main>
     </body>
 </html>
